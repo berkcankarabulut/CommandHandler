@@ -5,7 +5,12 @@
   based on the <strong>Command Pattern</strong>. It enables you to define discrete actions as commands 
   and execute them sequentially with completion callbacks.
 </p>
-
+  <h2>📦 Installation</h2>
+    <p>1. Clone this repository:</p>
+    <pre><code>git clone https://github.com/berkcankarabulut/CommandHandler.git</code></pre>
+    <p>2. Add it to your Unity project.</p>
+    <p>3. Configure the necessary settings.</p>
+    
 <h3>🧱 Components</h3>
 
 <ul>
@@ -51,3 +56,5 @@
   <li>Create a <code>CommandExecuteHandler</code> and assign your command instances.</li>
   <li>Call <code>ExecuteAllCommands()</code> to run the sequence.</li>
 </ol>
+
+
