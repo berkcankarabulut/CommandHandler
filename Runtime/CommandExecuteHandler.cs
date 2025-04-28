@@ -31,7 +31,7 @@ namespace CommandHandler.Runtime
             ExecuteCommand();
         }
 
-        private virtual void OnAllCommandsExecuted()
+        protected virtual void OnAllCommandsExecuted()
         {           
             onAllCommandsExecuted.Invoke();
         }
