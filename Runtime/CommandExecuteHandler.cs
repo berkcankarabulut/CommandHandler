@@ -31,9 +31,8 @@ namespace CommandHandler.Runtime
             ExecuteCommand();
         }
 
-        private void OnAllCommandsExecuted()
-        {
-            //Debug.Log("ALL COMMANDS ARE EXECUTED.");
+        private virtual void OnAllCommandsExecuted()
+        {           
             onAllCommandsExecuted.Invoke();
         }
 
