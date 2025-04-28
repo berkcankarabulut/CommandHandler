@@ -1,6 +1,6 @@
 {
   "name": "com.berkcankarabulut.commandhandler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Command Handler",
   "description": "A flexible command execution system for Unity using the Command Pattern. Supports undo, sequencing, and callback-based flow control.",
   "author": {
